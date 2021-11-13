@@ -1,6 +1,7 @@
 #include <iostream>
 using namespace std;
-int n;
+int main() {
+   int n;
    int a=1, b=1, c;
    cin >> n;
    if(n<2){
@@ -15,5 +16,5 @@ int n;
       cout << c <<endl;
   }
    }
-   return 0;
+    return 0;
 }
