@@ -1,10 +1,11 @@
 #include <iostream>
 using namespace std;
-
-int main() {
-   int n;
+int n;
    int a=1, b=1, c;
    cin >> n;
+   if(n<2){
+       cout << "errore" <<endl;
+   }else{
   cout << a <<endl;
   cout << b <<endl;
   for(int i=0;i<=(n-2);i++){
@@ -12,6 +13,7 @@ int main() {
       a=b;
       b=c;
       cout << c <<endl;
+  }
    }
    return 0;
 }
